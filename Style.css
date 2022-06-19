@@ -1,1 +1,29 @@
+/* .container{
+    display:flex;
+    border: 5px solid #ffcc5c;
+    justify-content: space-evenly;
+}
+.Home{
+    flex-wrap: 20;
+    flex-grow: 2;
+    flex-basis: 40;
+}
+.logout{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 20px;
+} */
 
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+container > div > img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+.container > .normal{
+    flex: 1 1 150px;
+}
